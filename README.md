@@ -1,8 +1,5 @@
 # BatchRequestClient
-Short description and motivation.
-
-## Usage
-How to use my plugin.
+Ruby Client to create batch payload for use with [Batch Request API Middleware](https://github.com/Netflix/batch_request_api)
 
 ## Installation
 Add this line to your application's Gemfile:

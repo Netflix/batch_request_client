@@ -15,7 +15,7 @@ $ gem install batch_request_client
 ## Usage
 
 ``` ruby
-    BatchRequestApi::Client.create(payload, url)
+  BatchRequestApi::Client.create(payload, url)
   ```
 
 ## Arguments

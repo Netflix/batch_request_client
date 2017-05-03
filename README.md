@@ -11,11 +11,6 @@ Add this line to your application's Gemfile:
 gem 'batch_request_client'
 ```
 
-And then execute:
-```bash
-$ bundle
-```
-
 Or install it yourself as:
 ```bash
 $ gem install batch_request_client
@@ -28,10 +23,17 @@ $ gem install batch_request_client
 
 ## Arguments
 
-payload - Array of body payload.
-url - Complete route. example: http://localhost:3000/talents
+* payload - Array of body payload.
+* url - Complete route.
+
+example: ```ruby
+  BatchRequestApi::Client.create(payload, 'http://localhost:3000/talents', :parallel) ```
 
 Default is sequential operation, if you want parallel, you can pass ```:parallel``` in the list of arguments.
+
+## Coming Soon
+
+Update and Delete is still TODO, since we focussed on the [Ember Addon](https://github.com/Netflix/ember-batch-request) that handles update and delete from UI.
 
 ## Contributing
 If you would like to contribute, you can fork the project, edit, and make a pull request.

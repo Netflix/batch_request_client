@@ -1,6 +1,10 @@
 require 'batch_request_client/version'
 require 'batch_request_client/batch_util'
 
+require 'uri'
+require 'rest-client'
+require 'json'
+
 module BatchRequestClient
   extend BatchUtil
 

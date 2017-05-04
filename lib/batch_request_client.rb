@@ -17,10 +17,10 @@ module BatchRequestClient
   end
 
   def update
-
+    raise NotImplementedError
   end
 
   def delete
-
+    raise NotImplementedError
   end
 end

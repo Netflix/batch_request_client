@@ -5,7 +5,7 @@ require "batch_request_client/version"
 Gem::Specification.new do |s|
   s.name        = "batch_request_client"
   s.version     = BatchRequestClient::VERSION
-  s.authors     = ["Srinivas Raghunathan"]
+  s.authors     = ["Srinivas Raghunathan", "Shishir Kakaraddi"]
   s.email       = ["sraghunathan@netflix.com"]
   s.homepage    = "https://github.com/Netflix/batch_request_client"
   s.summary     = %q{Batch Request Client.}

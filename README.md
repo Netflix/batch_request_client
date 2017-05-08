@@ -18,7 +18,7 @@ $ gem install batch_request_client
 ## Usage
 
 ``` ruby
-  BatchRequestApi::Client.create(payload, url)
+  BatchRequestClient.create(payload, url)
   ```
 
 ## Arguments
@@ -29,7 +29,7 @@ $ gem install batch_request_client
 ## Example:
 
 ``` ruby
-  BatchRequestApi::Client.create(payload, 'http://localhost:3000/talents', :parallel)
+  BatchRequestClient.create(payload, 'http://localhost:3000/talents', :parallel)
 ```
 
 Default is sequential operation, if you want parallel, you can pass ```:parallel``` in the list of arguments.

@@ -6,11 +6,10 @@ Gem::Specification.new do |s|
   s.name        = "batch_request_client"
   s.version     = BatchRequestClient::VERSION
   s.authors     = ["Srinivas Raghunathan", "Shishir Kakaraddi"]
-  s.email       = ["sraghunathan@netflix.com"]
   s.homepage    = "https://github.com/Netflix/batch_request_client"
   s.summary     = %q{Batch Request Client.}
   s.description = %q{Batch Request Client.}
-  s.license     = "Apache"
+  s.license     = "Apache-2.0"
   s.require_paths = ["lib"]
 
   s.add_dependency "rest-client", "~> 2.0"

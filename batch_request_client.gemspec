@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{Batch Request Client.}
   s.license     = "Apache-2.0"
   s.require_paths = ["lib"]
+	s.files      = `git ls-files lib`.split($/)
 
   s.add_dependency "rest-client", "~> 2.0"
   s.required_ruby_version = '>= 2.1'

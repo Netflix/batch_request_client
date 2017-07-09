@@ -1,6 +1,6 @@
 # BatchRequestClient
 
-[![NetflixOSS Lifecycle](https://img.shields.io/osslifecycle/Netflix/osstracker.svg)]()
+[![NetflixOSS Lifecycle](https://img.shields.io/osslifecycle/Netflix/batch_request_client.svg)]()
 
 Ruby Client to create batch payload for use with [Batch Request API Middleware](https://github.com/Netflix/batch_request_api)
 

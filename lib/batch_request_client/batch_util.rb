@@ -19,15 +19,15 @@ module BatchRequestClient
 
     def request_signature(item, method, url)
       {
-        "method": method,
-        "url": "#{url}",
-        "body": item
+        'method' => method,
+        'url' => url,
+        'body' => item
       }
     end
 
     def padded_response(requests)
       {
-        "requests": requests
+        'requests' => requests
       }
     end
 
